@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#nav_container {
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+  }
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.topnav li {
+    cursor: pointer;
+}
+
+.topnav li:hover {
+    color: lightblue;
+}
+
+#magni {
+    margin-right: 5px;
+}
+
+input {
+    border-radius: 10px;
+}
