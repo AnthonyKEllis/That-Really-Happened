@@ -1,7 +1,8 @@
 body {
-    
+    background-color: lightblue;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
   }
 
 h1, h2 {
@@ -86,4 +87,40 @@ footer {
 
 .footernav li:hover {
     color: lightblue;
+}
+
+
+div.main {
+	width: 55%;
+	float: left;
+	margin-right: 5%;
+}
+
+/* Side Column */
+div.side {
+	width: 35%;
+	float: left;
+}
+
+/* Info Box */
+div.top_posts {
+	background-color: goldenrod;
+	padding: 20px;
+	margin: 0 0 15px 0;
+}
+
+div.top_posts {
+	background-color: goldenrod;
+	padding: 10px;
+    margin: 0 0 15px 0;
+    border-radius: 3px;
+}
+
+.post_title {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.post_author {
+    text-align: center;
 }
